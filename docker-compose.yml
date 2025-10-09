@@ -7,7 +7,7 @@ services:
     environment:
       - MONGODB_URI=${MONGODB_URI:-mongodb://localhost:27017/defaultdb}
   mongo:
-    image: mongo
+    image: mongo:4.4
     ports:
       - "27017:27017"
     volumes:

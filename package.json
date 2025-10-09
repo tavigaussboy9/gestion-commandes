@@ -1,7 +1,7 @@
 {
   "name": "gestion-commandes",
   "version": "1.0.0",
-  "description": "Application pour la gestion des commandes de produits en ligne",
+  "description": "Application for managing online product orders",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

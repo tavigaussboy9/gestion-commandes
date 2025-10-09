@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
   .catch(err => console.error('Erreur de connexion à MongoDB:', err));
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l API Gestion des Commandes !');
+  res.send('Bienvenue dans l API de Gestion des Commandes !');
 });
 
 app.listen(PORT, () => {
